@@ -1,0 +1,13 @@
+Hello Everyone,
+
+I have provided the zip file of the project i was assigned as the interview assessment, I have customised the UI based on the website of your campany so that if you are considering to integrate it with your website it won't require much modifications.
+
+Steps to execute the asessment:
+1. extract the zip file 
+2. open it any IDE, i am using vs code for demonstration 
+3. download the node.js from the browser
+4. open the terminal in vs code and give in the command "npm install" and wait for it to install all the dependancies.
+5. after the installation give one more command "nodemon app.js" so that server is started and is available on "http://localhost:3000/generate-sop"
+6. Try the web app  for yourself but dont forget to configure the fake smtp auth credentials to see the mail being generated.
+
+NOTE: As i did not have any smtp server i have used fake smtp server to demonstrate the functioning, it won't take much modification to implement it with actual smtp server. 
